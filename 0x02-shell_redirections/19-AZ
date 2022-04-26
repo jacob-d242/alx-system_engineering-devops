@@ -1,0 +1,6 @@
+#!/bin/bash
+<<<<<<< HEAD
+tr '[Ac]' '[Ze]'
+=======
+tr Ac Ze
+>>>>>>> 431bf01073cc0eda93b80974405fdfd4fdad4428

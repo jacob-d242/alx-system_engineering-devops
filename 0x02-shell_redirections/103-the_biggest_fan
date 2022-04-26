@@ -1,0 +1,6 @@
+#!/bin/bash
+<<<<<<< HEAD
+tail -n+2 | cut -f1 | sort | uniq -c | sort -nr | rev | cut --delimiter=' ' -f1 | rev | head --lines=11
+=======
+cut -f1 -d$'\t' | sort | uniq -c | tr -s ' ' | sort -t' ' -k1 -nr | head -11 | cut -d' ' -f3
+>>>>>>> 431bf01073cc0eda93b80974405fdfd4fdad4428

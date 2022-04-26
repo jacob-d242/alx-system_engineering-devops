@@ -1,0 +1,6 @@
+#!/bin/bash
+<<<<<<< HEAD
+echo $(( $TRUEKNOWLEDGE+128 ))
+=======
+echo "$((TRUEKNOWLEDGE+=128))"
+>>>>>>> 431bf01073cc0eda93b80974405fdfd4fdad4428

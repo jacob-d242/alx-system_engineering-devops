@@ -1,0 +1,6 @@
+#!/bin/bash
+<<<<<<< HEAD
+sudo chgrp holberton hello
+=======
+chgrp holberton hello
+>>>>>>> 431bf01073cc0eda93b80974405fdfd4fdad4428

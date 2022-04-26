@@ -1,0 +1,6 @@
+#!/bin/bash
+<<<<<<< HEAD
+grep -c "bin" /etc/passwd
+=======
+grep -i bin /etc/passwd | wc -l
+>>>>>>> 431bf01073cc0eda93b80974405fdfd4fdad4428

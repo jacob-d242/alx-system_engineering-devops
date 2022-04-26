@@ -1,0 +1,6 @@
+#!/bin/bash
+<<<<<<< HEAD
+find . -mindepth 1 -type d | wc -l
+=======
+find -mindepth 1 -type d | wc -l
+>>>>>>> 431bf01073cc0eda93b80974405fdfd4fdad4428

@@ -1,0 +1,6 @@
+#!/bin/bash
+<<<<<<< HEAD
+grep root /etc/passwd
+=======
+grep -i root /etc/passwd
+>>>>>>> 431bf01073cc0eda93b80974405fdfd4fdad4428

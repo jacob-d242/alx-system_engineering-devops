@@ -1,0 +1,6 @@
+#!/bin/bash
+<<<<<<< HEAD
+find . -type f -name \*.gif -printf "%f\n" | LC_ALL=C sort -f | rev | cut -b 5-| rev
+=======
+find . -name \*.gif -type f -printf "%f\n" | LC_COLLATE=C sort --ignore-case | rev | cut -c 5- | rev
+>>>>>>> 431bf01073cc0eda93b80974405fdfd4fdad4428

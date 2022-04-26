@@ -1,0 +1,6 @@
+#!/bin/bash
+<<<<<<< HEAD
+sudo tail -10 /etc/passwd
+=======
+tail /etc/passwd
+>>>>>>> 431bf01073cc0eda93b80974405fdfd4fdad4428

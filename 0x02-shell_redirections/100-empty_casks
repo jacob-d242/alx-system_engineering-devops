@@ -1,0 +1,6 @@
+#!/bin/bash
+<<<<<<< HEAD
+find . -empty | rev | cut --delimiter='/' -f1 | rev
+=======
+find . -empty -printf "%f\n"
+>>>>>>> 431bf01073cc0eda93b80974405fdfd4fdad4428

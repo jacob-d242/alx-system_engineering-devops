@@ -1,0 +1,6 @@
+#!/bin/bash
+<<<<<<< HEAD
+sudo head -3 ./iacta | tail +3
+=======
+head --lines=3 iacta | tail --lines=1
+>>>>>>> 431bf01073cc0eda93b80974405fdfd4fdad4428

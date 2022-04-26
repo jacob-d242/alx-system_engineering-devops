@@ -1,0 +1,6 @@
+#!/bin/bash
+<<<<<<< HEAD
+echo $PATH | tr ":" "\n" |wc -l
+=======
+echo $PATH | tr -s ":" "\n" | wc -l
+>>>>>>> 431bf01073cc0eda93b80974405fdfd4fdad4428

@@ -1,0 +1,6 @@
+#!/bin/bash
+<<<<<<< HEAD
+cut -c1 | tr -d '\n' | sort
+=======
+cut -c 1 | tr -d '\n' | sort
+>>>>>>> 431bf01073cc0eda93b80974405fdfd4fdad4428
